@@ -1,0 +1,85 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 101;
+  background-color: #131921;
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
+  width: 100px;
+  object-fit: contain;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 18px;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header__link {
+  color: white;
+  text-decoration: none;
+}
+
+.header__optionBasket {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.header__basketCount {
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.header__option {
+  margin-left: 10px;
+  margin-right:10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header__optionLineOne {
+  font-size: 10px;
+}
+
+.header__optionLineTwo {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.header__search {
+  display: flex;
+  flex: 1;
+}
+
+.header__searchInput {
+  height: 12px;
+  padding: 10px;
+  border: none;
+  width: 100%;
+}
+
+.header__searchIcon {
+  height: 20px !important;
+  padding: 5px;
+  background-color: #cd9042;
+}
+
+.fadeOut {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  transition: width 0.5s 0.5s, height 0.5s 0.5s, opacity 0.5s;
+}
+
+.fadeIn {
+  opacity: 1;
+  width: 100px;
+  height: 100px;
+  transition: width 0.5s, height 0.5s, opacity 0.5s 0.5s;
+}
